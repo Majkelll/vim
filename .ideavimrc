@@ -1,0 +1,26 @@
+" Line Numbering Settings
+set relativenumber
+set number
+
+" Scrolling Behavior
+set scrolloff=5
+
+" Search Settings
+set incsearch
+
+" Key Mappings
+map Q gq
+map ge <Action>(ReSharperGotoNextErrorInSolution)
+map gE <Action>(ReSharperGotoPrevErrorInSolution)
+map [[ <Action>(MethodUp)
+map ]] <Action>(MethodDown)
+
+" Plugins
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+
+" Clipboard Settings
+set clipboard+=unnamed
+
+" Visual Feedback
+set visualbell

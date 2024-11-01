@@ -24,3 +24,8 @@ set clipboard+=unnamed
 
 " Visual Feedback
 set visualbell
+
+"TEST
+let mapleader=" "
+map <leader>o <Action>(CloseAllEditorsButActive)
+Plug 'preservim/nerdtree'

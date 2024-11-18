@@ -29,3 +29,7 @@ set visualbell
 let mapleader=" "
 map <leader>o <Action>(CloseAllEditorsButActive)
 Plug 'preservim/nerdtree'
+
+nmap gi <Action>(GotoImplementation)
+nnoremap <leader>` ci"<C-r>"<Esc>a`<Esc>hbi`<Esc>
+Plug 'tpope/vim-surround'
